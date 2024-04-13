@@ -50,7 +50,7 @@ while True:
             elif valor > saldo:
                 print(f"Saldo insuficiente para este valor de saque! Saldo disponível R$ {saldo:.2f}. ")
             elif valor > 0:
-                print("Saldo concluído com sucesso!")
+                print("Saque concluído com sucesso!")
                 saldo -= valor
                 numero_saques +=1
                 extrato += f"Saque:  -R$ {valor:.2f}\n"
